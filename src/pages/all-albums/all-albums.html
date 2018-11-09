@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>allAlbums</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="albums" *ngFor="let album of albumsList">
+    <albums [alb]="album"></albums>
+  </div>
+</ion-content>
